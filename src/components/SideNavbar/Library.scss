@@ -1,0 +1,36 @@
+.library {
+  padding-top: 5px;
+  width: 100%;
+  height: 175px;
+  padding-bottom: 10px;
+  .rows {
+    margin-right: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none; //to remove the bullet points of each list
+  }
+  .rows:hover {
+    cursor: pointer;
+    background-color: #272727;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 10px;
+  }
+  .texts {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+  }
+  .side-icons {
+    flex: 30%;
+    place-items: center;
+    display: grid; //this makes me have control of the grid within each row.
+    color: white;
+    font-size: 25px;
+  }
+  .texts {
+    flex: 70%;
+  }
+}
