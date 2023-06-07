@@ -1,0 +1,47 @@
+.shorts {
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid #3F3F3F;
+  .up{
+    position: relative;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-left: 90px;
+    height: 100px;
+    width: 1500px;
+    display: flex;
+    .title{
+      margin-left: 5px;
+      width: 30px;
+      height: 30px;
+      .shorts-icon{
+        width: 100%;
+        height: 100%;
+      }
+    }
+   p{
+    margin-left: 10px;
+    margin-top: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    
+   }
+   .x{
+    padding: 5px 5px 5px 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 28px;
+    right: 0;
+    color: white;
+    font-size: 45px;
+    cursor: pointer;
+   }
+   .x:hover{
+    background-color: #3F3F3F;
+    transition: 0.3s;
+   }
+  }
+  
+}

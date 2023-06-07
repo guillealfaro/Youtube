@@ -1,0 +1,40 @@
+.explore {
+  width: 100%;
+  border-bottom: 1px solid #272727;
+  padding-bottom: 14px;
+  .title {
+    padding-left: 24px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 3px;
+    margin-top: 16px;
+  }
+  .rows {
+    margin-left: 12px;
+    padding-left: 6px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none; //to remove the bullet points of each list
+  }
+  .rows:hover {
+    cursor: pointer;
+    background-color: #272727;
+    border-radius: 10px;
+    width: 205px;
+  }
+  .texts {
+    padding-left: 23px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+  }
+  .side-icons {
+    place-items: center;
+    display: grid; //this makes me have control of the grid within each row.
+    color: white;
+    font-size: 22px;
+    padding-left: 8px;
+  }
+}
