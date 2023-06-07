@@ -2,8 +2,7 @@ import Categories from "./components/Categories";
 import Navbar from "./components/Navbar";
 import SideNavbar from "./components/SideNavbar";
 import "./App.scss";
-import Hero from "./components/Hero";
-
+import MainVideos from "./components/MainVideos";
 function App() {
   return (
     <div className="App">
@@ -12,7 +11,7 @@ function App() {
         <SideNavbar />
         <div className="hero">
           <Categories />
-          <Hero />
+          <MainVideos />
         </div>
       </div>
     </div>

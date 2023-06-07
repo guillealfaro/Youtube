@@ -3,8 +3,8 @@
   border-bottom: 1px solid #272727;
   padding-bottom: 14px;
   .rows {
-    padding-left: 4px;
-    margin-right: 10px;
+    margin-right: 12px;
+    margin-left: 12px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -15,28 +15,24 @@
     cursor: pointer;
     background-color: #272727;
     border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 22px;
   }
   .title {
     padding-left: 24px;
     color: white;
     font-size: 16px;
     margin-bottom: 2px;
-    margin-top: 19px;
+    margin-top: 15px;
   }
   .texts {
+    padding-left: 25px;
     font-size: 14px;
     color: white;
     text-decoration: none;
   }
   .side-icons {
-    flex: 30%;
+    padding-left: 12px;
     place-items: center;
     display: grid; //this makes me have control of the grid within each row.
     font-size: 25px;
-  }
-  .texts {
-    flex: 70%;
   }
 }

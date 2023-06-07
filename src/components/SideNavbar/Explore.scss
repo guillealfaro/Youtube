@@ -10,8 +10,8 @@
     margin-top: 16px;
   }
   .rows {
+    margin-left: 12px;
     padding-left: 6px;
-    margin-right: 10px;
     height: 40px;
     display: flex;
     flex-direction: row;
@@ -22,23 +22,19 @@
     cursor: pointer;
     background-color: #272727;
     border-radius: 10px;
-    width: 180px;
-    margin-left: 10px;
+    width: 205px;
   }
   .texts {
+    padding-left: 23px;
     font-size: 14px;
     color: white;
     text-decoration: none;
   }
   .side-icons {
-    flex: 30%;
     place-items: center;
-    padding-left: 20px;
-    // display: grid; //this makes me have control of the grid within each row.
+    display: grid; //this makes me have control of the grid within each row.
     color: white;
     font-size: 22px;
-  }
-  .texts {
-    flex: 70%;
+    padding-left: 8px;
   }
 }

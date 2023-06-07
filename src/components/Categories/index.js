@@ -22,9 +22,13 @@ const Categories = () => {
   ];
   return (
     <div className="space-container">
-      {categories.map((categorie, index) => (
-        <a href={`/${categorie}`} key={index}>
-          {categorie}
+      {categories.map((category, index) => (
+        <a
+          href={`/${category}`}
+          key={index}
+          className={index === 0 ? "first-category" : ""}
+        >
+          {category}
         </a>
       ))}
     </div>

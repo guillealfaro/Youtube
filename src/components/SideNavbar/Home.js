@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.scss";
 import SideText from "../SideText";
-import { GrNext } from "react-icons/gr";
 
 const Home = () => {
   const sectionId = 1; // ID of the Home section in sideData array

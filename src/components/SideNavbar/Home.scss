@@ -1,4 +1,6 @@
 .home {
+  margin-left: 12px;
+  margin-right: 12px;
   border-bottom: 1px solid #272727;
   padding-top: 12px;
   margin-bottom: 10px;
@@ -9,8 +11,11 @@
   justify-content: space-evenly;
 
   .rows {
+    padding-left: 12px;
+    margin-right: 12px;
     height: 40px;
     display: flex;
+    gap: 10px;
     align-items: center;
     flex-direction: row;
     list-style-type: none; //to remove the bullet points of each list
@@ -19,21 +24,19 @@
     background-color: #272727;
     border-radius: 10px;
     width: 200px;
-    margin-left: 10px;
   }
   .texts {
+    font-weight: 500;
+    padding-left: 14px;
     font-size: 14px;
     color: white;
     text-decoration: none;
+    margin-bottom: 5px;
   }
   .side-icons {
-    flex: 30%;
     place-items: center;
     display: grid; //this makes me have control of the grid within each row.
     color: white;
-    font-size: 25px;
-  }
-  .texts {
-    flex: 70%;
+    font-size: 23px;
   }
 }
