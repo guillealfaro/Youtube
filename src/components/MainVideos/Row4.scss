@@ -1,0 +1,200 @@
+.row4 {
+  padding-top: 34px;
+  margin-left: 70px;
+  height: 380px;
+  color: white;
+  margin-right: 98px;
+  .up {
+    display: flex;
+    .f1 {
+      padding-top: 8px;
+      padding-right: 3px;
+      width: 359px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      .image {
+        height: 202px;
+        width: 360px;
+        position: relative;
+        .imagecont {
+          border-radius: 10px;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .time {
+          font-family: Roboto, Arial, sans-serif;
+          border-radius: 3px;
+          padding: 1px 4px 1px 4px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgba(21, 21, 23, 0.9);
+          font-size: 13px;
+          position: absolute;
+          bottom: -8px;
+          right: 4px;
+          opacity: 1;
+          transition: opacity 0.3s;
+        }
+      }
+      .title {
+        padding-top: 13px;
+        display: flex;
+        flex-direction: row;
+        .profile-pic {
+          height: 37px;
+          width: 43px;
+          .f1logo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-color: white;
+            border-radius: 50%;
+          }
+        }
+        .main-title {
+          position: relative;
+          height: 100px;
+          padding-left: 13px;
+          padding-right: 20px;
+          a {
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+          }
+          .cap {
+            padding-top: 8px;
+          }
+          p {
+            color: #a3a3a3;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 14px;
+          }
+          .icon-hover {
+            font-size: 24px;
+            position: absolute;
+            top: 4px;
+            right: -4px;
+            display: none;
+          }
+        }
+        .main-title:hover {
+          .icon-hover {
+            display: inline-block;
+          }
+        }
+      }
+    }
+    .f1:hover {
+      .time {
+        opacity: 0;
+      }
+    }
+    .f2 {
+      padding-top: 8px;
+      width: 360px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 16.5px;
+      .image {
+        height: 202px;
+        width: 360px;
+        position: relative;
+
+        .imagecont {
+          cursor: pointer;
+          border-radius: 10px;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .time {
+          font-family: Roboto, Arial, sans-serif;
+          border-radius: 3px;
+          padding: 1px 4px 1px 4px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgba(21, 21, 23, 0.9);
+          font-size: 13px;
+          position: absolute;
+          bottom: -8px;
+          right: 4px;
+          opacity: 1;
+          transition: opacity 0.3s;
+        }
+      }
+      .title {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        .comedy-pic {
+          cursor: pointer;
+          margin-top: 10px;
+          height: 40px;
+          width: 60px;
+          .profile-pic-cont {
+            height: 100%;
+            width: 100%;
+          }
+        }
+        .profile-pic {
+          cursor: pointer;
+          height: 38px;
+          width: 40px;
+          margin-top: 12px;
+          .profile-pic-cont {
+            height: 100%;
+            width: 100%;
+          }
+        }
+
+        .main-title {
+          padding-left: 10px;
+          padding-top: 11px;
+          a {
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+          }
+          .cap {
+            cursor: pointer;
+            padding-top: 8px;
+          }
+          p {
+            cursor: pointer;
+            color: #a3a3a3;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 14px;
+          }
+          .icon-hover {
+            font-size: 24px;
+            position: absolute;
+            top: 12px;
+            right: -4px;
+            display: none;
+          }
+        }
+      }
+      .title:hover {
+        .icon-hover {
+          display: block;
+        }
+      }
+    }
+    .f2:hover {
+      .time {
+        opacity: 0;
+      }
+    }
+  }
+}

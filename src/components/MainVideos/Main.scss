@@ -1,0 +1,9 @@
+@import "../../styles/global.scss";
+
+.main {
+  margin-left: #{$width-sidenav};
+  position: re;
+  background-color: #0f0f0f;
+  height: calc(100vh);
+  padding-top: calc((#{$height-header} + #{$height-category-bar}));
+}

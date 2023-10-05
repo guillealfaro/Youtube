@@ -1,0 +1,127 @@
+.shorts {
+  height: 651px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 4px solid #3f3f3f;
+  margin-left: 70px;
+  margin-right: 90px;
+
+  .icon-down {
+    cursor: pointer;
+    margin-bottom: 2px;
+    margin-top: auto; //place the element at the bottom.
+    width: 100%;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .icon-down:hover {
+    background-color: #3f3f3f;
+  }
+  .up {
+    position: relative;
+    padding-top: 27px;
+    height: 70px;
+    width: 1500px;
+    display: flex;
+    .title {
+      margin-top: 3px;
+      margin-left: 10px;
+      width: 25px;
+      height: 25px;
+      .shorts-icon {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    p {
+      margin-left: 7px;
+      margin-top: 0px;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .x {
+      padding: 5px 5px 5px 5px;
+      border-radius: 50%;
+      position: absolute;
+      top: 21px;
+      right: 10px;
+      color: white;
+      font-size: 45px;
+      cursor: pointer;
+    }
+    .x:hover {
+      background-color: #3f3f3f;
+      transition: 0.3s;
+    }
+  }
+  .down {
+    margin-top: 18px;
+    width: 1508px;
+    height: 405px;
+    display: flex;
+
+    .short {
+      cursor: pointer;
+      position: relative;
+      margin-right: 16px;
+      height: 475px;
+      width: 235px;
+      .icon-hover {
+        color: white;
+        position: absolute;
+        bottom: 24px;
+        right: -1px;
+        font-size: 23px;
+        display: none;
+      }
+      .short-pic {
+        height: 418px;
+        width: 100%;
+
+        .short-pic-img {
+          border-radius: 12px;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .short-caption {
+        color: white;
+        height: 40px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 500;
+        padding-left: 2px;
+        margin-top: 9px;
+        margin-bottom: 5px;
+        padding-right: 20px;
+        p {
+          margin: 0;
+          padding: 0;
+        }
+      }
+      .short-views {
+        margin-top: 8px;
+        color: #b8b5b5;
+        height: 20px;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 2px;
+        p {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+    .short:hover {
+      .icon-hover {
+        display: block;
+      }
+    }
+  }
+}
