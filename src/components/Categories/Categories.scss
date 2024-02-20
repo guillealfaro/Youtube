@@ -1,0 +1,48 @@
+@import "../../styles/global.scss";
+
+.space-container {
+  position: fixed;
+  top: #{$height-header};
+  width: 100%;
+  padding-left: 0 px;
+  margin-top: 0px;
+  height: #{$height-category-bar};
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 3.5px;
+  z-index: 2;
+  .first-category {
+    background-color: white;
+    color: black;
+  }
+
+  a {
+    white-space: nowrap;
+    height: 32px;
+    font-weight: 400;
+    padding: 6px 12px 7px 13px;
+    text-decoration: none;
+    color: white;
+    margin: 0px 7px 0px 7px;
+    font-size: 14px;
+    background-color: #272727;
+    border-radius: 7px;
+    background-clip: padding-box, border-box;
+    background-origin: border-box, border-box;
+
+    &.gradient {
+      background-image: linear-gradient(
+        45deg,
+        var(--gradient-color-1),
+        var(--gradient-color-2),
+        var(--gradient-color-3)
+      );
+    }
+  }
+
+  a:hover {
+    background-color: rgb(63, 63, 63);
+  }
+}
