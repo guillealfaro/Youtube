@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Welcome to my React project! This project served as a hands-on learning experience for me to delve into React and deepen my understanding of its core concepts.
 
 Goals:
@@ -16,3 +17,7 @@ Implementation of props to facilitate data flow between components.
 Introduction to React hooks, specifically useState, for managing component-level state.
 Emphasis on writing clean and concise JSX code for building intuitive user interfaces.
 Incorporation of Sass for enhanced styling capabilities and code organization.
+=======
+This is a react project as practice I worked on to learn react and how components work.
+I wanted to learn states, javascript fundamentals, props, some of the hooks even though I was only using useState. This is mostly to learn how components work, introduce myself into sass as well and get familiar with writing code in JSX.
+>>>>>>> da2ba7f0304bbd99108e8de4f1f1868e8f4fde6f
