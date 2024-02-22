@@ -1,7 +1,6 @@
-Welcome to my React project! This project served as a hands-on learning experience for me to delve into React and deepen my understanding of its core concepts.
+Welcome to my React YouTube clone! This project served as a hands-on learning experience for me to delve into React and deepen my understanding of its core concepts.
 
 Goals:
-
 Learn about React components and their interactions.
 Gain proficiency in managing states, mastering JavaScript fundamentals, and passing data via props.
 Explore React hooks, with a particular focus on useState.
